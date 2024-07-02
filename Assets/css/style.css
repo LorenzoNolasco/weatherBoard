@@ -1,0 +1,44 @@
+header,
+.forecast {
+  text-align: center;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+.search-box {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  /* flex-direction: column; */
+}
+
+.search-history-container {
+  border: black solid;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  position: absolute;
+  left: 1rem;
+}
+
+.forecast-item {
+  border: blue solid;
+  background-color: aquamarine;
+}
+
+#five-day-forecast {
+  text-align: center;
+  background-color: gold;
+  margin: 0rem 30rem;
+  border: black solid;
+  display: flex;
+}
+
+#current-weather {
+  border: black solid;
+  margin: 0rem 25rem;
+  background-color: gold;
+}
